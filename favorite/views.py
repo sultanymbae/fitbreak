@@ -5,8 +5,6 @@ from .serializers import ExerciseSerializer
 from rest_framework import status
 
 
-
-
 class FavoriteExerciseListCreateAPIView(ListCreateAPIView):
     serializer = ExerciseSerializer
 
